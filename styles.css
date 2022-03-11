@@ -100,8 +100,7 @@ body {
 
 .section.three {
   background-color: #E5E7EB;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding: 70px 200px;
   display: flex;
   flex-direction: column;
 }
@@ -151,32 +150,23 @@ button.action {
   padding: 5px 20px;
 }
 
-p {
-  margin: 0px;
-}
-
 a {
   text-decoration: none;
   color: #E5E7EB;
   font-size: 18px;
   font-weight: 100;
   margin: 0px;
-
 }
 
 li {
   list-style: none;
   margin: 15px
-
 }
 
-ul {
+ul, h3, p {
   margin: 0%;
 }
 
-h3 {
-  margin: 0px;
-}
 
 .footer {
   justify-content: center;
