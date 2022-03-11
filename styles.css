@@ -4,12 +4,13 @@
 
 body {
   margin: 0;
+  font-weight: 100;
 }
 
 .section {
   display: flex;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .dark {
@@ -21,12 +22,74 @@ body {
   justify-content: space-between;
   align-items: center;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .links {
   display: flex;
 
+}
+
+.one h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.one .container {
+  padding-right: 40px;
+}
+
+.section.one {
+  padding-top: 70px;
+}
+
+.one img {
+  width: 60vh;
+  height: auto;
+  margin-bottom: 90px;
+}
+
+.one .container, .one, img {
+  flex-basis: 50%;
+}
+
+.one p {
+  color: #E5E7EB;
+  font-size: 18px;
+  margin: 0;
+}
+
+.two {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.two h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.row img {
+  height: 130px;
+  width: auto;
+  border: #3882F6 4px solid;
+  border-radius: 15px;
+}
+
+.row .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
 }
 
 a {
@@ -39,7 +102,7 @@ a {
 
 li {
   list-style: none;
-  margin: 20px
+  margin: 15px
 
 }
 
@@ -49,4 +112,15 @@ ul {
 
 h3 {
   margin: 0px;
+}
+
+button {
+  background-color: #3882F6;
+  border-color: #3882F6;
+  border-radius: 4px;
+  color: #E5E7EB;
+  border-style: none;
+  padding: 5px 20px;
+  margin-top: 10px;
+  font-size: 16px;
 }
