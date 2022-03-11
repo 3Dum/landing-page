@@ -117,7 +117,38 @@ body {
   padding-right: 50px;
   font-weight: 700;
   font-size: 24px;
+}
 
+.four .container {
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 50px 50px 50px 70px;
+}
+
+.four {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.action p, h4 {
+  margin: 0;
+  color: #E5E7EB;
+}
+
+.action h4 {
+  font-size: 20px;
+}
+
+button.action {
+  border: 2px solid #F9FAF8;
+  color: #F9FAF8;
+  border-radius: 8px;
+  background-color:#3882F6;
+  padding: 5px 20px;
 }
 
 p {
@@ -147,7 +178,14 @@ h3 {
   margin: 0px;
 }
 
-button {
+.footer {
+  justify-content: center;
+  color: #E5E7EB;
+  padding: 30px;
+  font-weight: 500;
+}
+
+.one button {
   background-color: #3882F6;
   border-color: #3882F6;
   border-radius: 4px;
